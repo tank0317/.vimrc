@@ -12,7 +12,14 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'ternjs/tern_for_vim'
 Plugin 'Valloric/YouCompleteMe'
 
-" The following are examples of different formats supported.
+Plugin 'Lokaltog/vim-powerline'
+let g:Powerline_symbols = 'fancy'
+set laststatus=2   " Always show the statusline
+
+Plugin 'tomasr/molokai'
+let g:molokai_original = 1
+
+""" The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
 "Plugin 'tpope/vim-fugitive'
@@ -69,7 +76,6 @@ set shiftwidth=4
 set autoindent
 
 syntax enable
-colorscheme industry
 
 
 
